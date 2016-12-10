@@ -1,19 +1,14 @@
 {
-  "name": "materialize-css",
-  "description": "Builds Materialize distribution packages",
-  "author": "Alvin Wang, Alan Chang",
-  "url": "http://materializecss.com/",
+  "name": "materialize-kynplex",
+  "description": "fixes materialize for webpack",
+  "author": "Raul Jordan",
   "version": "0.97.8",
   "main": "bin/materialize.js",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/Dogfalo/materialize.git"
-  },
-  "dependencies": {
-    "hammerjs": "^2.0.4",
-    "jquery": "^2.1.4",
-    "node-archiver": "^0.3.0"
+  "peerDependencies": {
+    "hammerjs": "*",
+    "jquery": "*",
+    "node-archiver": "*"
   },
   "engine": "node >= 0.10",
   "devDependencies": {
@@ -39,7 +34,6 @@
     "grunt-text-replace": "^0.4.0",
     "jasmine": "^2.3.2",
     "jasmine-jquery": "^2.1.1",
-    "jquery": "^2.1.4",
     "node-sass": "^3.4.2",
     "phantomjs": "^1.9.18"
   },
